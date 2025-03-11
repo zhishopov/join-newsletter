@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #f9fafb;
   font-family: "Poppins";
   display: flex;
   justify-content: center;
@@ -12,7 +13,6 @@ body {
 }
 
 .container {
-  background-color: green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,54 @@ body {
 }
 
 .form {
-  background-color: blue;
+  background-color: #ffffff;
   padding: 30px;
-  width: 60%;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px #e5e7eb;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.email {
+  background-color: #e5e7eb;
+  text-align: center;
+  width: 500px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.email::placeholder {
+  color: #394150;
+}
+
+.subscribe {
+  background-color: #284bce;
+  color: #ffffff;
+  text-align: center;
+  width: 500px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.helper {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #394150;
 }
